@@ -1,0 +1,16 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+kpt_shape: [4, 3]
+flip_idx: [0, 1, 2, 3]
+
+nc: 1
+names: ['cubes']
+
+roboflow:
+  workspace: capstone-umjl3
+  project: cubekeypoints
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/capstone-umjl3/cubekeypoints/dataset/5
