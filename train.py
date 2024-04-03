@@ -7,6 +7,6 @@ if __name__ == '__main__':
     model = YOLO('yolov8n-pose.yaml')
 
     # Train the model
-    results = model.train(data='data.yaml', epochs=150, imgsz=640, device='cuda', single_cls=True, batch=8)
+    results = model.train(data='data.yaml', epochs=500, imgsz=640, device='cuda', single_cls=True, batch=8)
 
 
